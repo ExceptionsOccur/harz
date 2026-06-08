@@ -4,11 +4,11 @@
       "gas_balance": {
         "name": "燃气余额"
       },
-      "gas_usage": {
-        "name": "本月用气量"
+      "gas_last_month_usage": {
+        "name": "上月用气量"
       },
-      "gas_bill": {
-        "name": "本月账单"
+      "gas_last_month_payment": {
+        "name": "上月燃气费用"
       },
       "gas_last_payment": {
         "name": "上次缴费"

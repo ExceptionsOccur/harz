@@ -61,17 +61,17 @@ SENSOR_TYPES: Final = {
         "device_class": "monetary",
         "state_class": "total",
     },
-    "gas_usage": {
-        "key": "gas_usage",
-        "name": "本月用气量",
+    "gas_last_month_usage": {
+        "key": "gas_last_month_usage",
+        "name": "上月用气量",
         "unit": "m³",
         "icon": "mdi:fire",
         "device_class": None,
         "state_class": "total_increasing",
     },
-    "gas_bill": {
-        "key": "gas_bill",
-        "name": "本月账单",
+    "gas_last_month_payment": {
+        "key": "gas_last_month_payment",
+        "name": "上月燃气费用",
         "unit": "CNY",
         "icon": "mdi:currency-cny",
         "device_class": "monetary",

@@ -139,8 +139,8 @@ class HazrApiClient:
 
             return {
                 "gas_balance": real_balance or data.get("balance"),
-                "gas_usage": current.get("curQty"),
-                "gas_bill": current.get("totalFee"),
+                "gas_last_month_usage": current.get("curQty"),
+                "gas_last_month_payment": current.get("totalFee"),
                 "gas_last_payment": (payment_log or [{}])[0].get("amount"),
                 "gas_last_payment_history": payment_log,
                 "gas_address": data.get("addr"),
