@@ -1,0 +1,21 @@
+{
+  "domain": "hazr",
+  "name": "\u4e2d\u71c3\u71c3\u6c14\u67e5\u8be2",
+  "codeowners": [
+    "@hazr"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/ExceptionsOccur/hazr",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ExceptionsOccur/hazr/issues",
+  "requirements": [
+    "aiohttp>=3.9.0"
+  ],
+  "version": "0.1.0",
+  "loggers": [
+    "hazr"
+  ],
+  "homeassistant": "2024.6.0"
+}

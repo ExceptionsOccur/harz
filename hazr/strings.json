@@ -1,0 +1,78 @@
+{
+  "entity": {
+    "sensor": {
+      "gas_balance": {
+        "name": "燃气余额"
+      },
+      "gas_usage": {
+        "name": "本月用气量"
+      },
+      "gas_bill": {
+        "name": "本月账单"
+      },
+      "gas_last_payment": {
+        "name": "上次缴费"
+      },
+      "gas_address": {
+        "name": "用气地址"
+      },
+      "gas_account_no": {
+        "name": "燃气户号"
+      },
+      "gas_last_payment_history": {
+        "name": "缴费记录"
+      },
+      "gas_monthly_detail": {
+        "name": "月度用气明细"
+      }
+    }
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "中燃燃气登录",
+        "description": "请输入您在中燃燃气注册的手机号码和开户人姓名。",
+        "data": {
+          "phone_number": "手机号码",
+          "user_name": "开户人姓名"
+        }
+      },
+      "captcha": {
+        "title": "图形验证码",
+        "description": "![captcha]({captcha_img})",
+        "data": {
+          "captcha_code": "图形验证码"
+        }
+      },
+      "sms_code": {
+        "title": "短信验证码",
+        "description": "请输入发送到您手机的短信验证码。",
+        "data": {
+          "sms_code": "短信验证码"
+        }
+      },
+      "select_account": {
+        "title": "选择燃气账户",
+        "description": "请选择要绑定的燃气账户。",
+        "data": {
+          "account": "燃气账户"
+        }
+      },
+      "reauth_confirm": {
+        "title": "重新认证",
+        "description": "登录令牌已过期，请重新登录。"
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到中燃服务器，请检查网络后重试。",
+      "sms_cooldown": "短信发送过于频繁，请180秒后再试。",
+      "invalid_captcha": "验证码错误，请重新输入。",
+      "invalid_sms_code": "短信验证码错误，请重新输入或重新获取。",
+      "unknown": "未知错误，请重试。"
+    },
+    "abort": {
+      "already_configured": "该手机号码已配置。",
+      "reauth_successful": "重新认证成功。"
+    }
+  }
+}
